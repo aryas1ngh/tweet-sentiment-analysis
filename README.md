@@ -6,7 +6,7 @@ This project analyzes tweets posted by random online users. The dataset used was
 In this project, we perform basic initial visualization on the dataset, followed by cleaning it. This is done by removing stopwords and punctuation marks. Then, lemmatizing is performed to get root words. For feature extraction, TF-IDF transformer is used instead of CountVectorizer. Finally we show accuracy metrics for the model.
 
 ## BERT tokenization
-Now, we use pre-trained BERT language model to tokenize the randomly sampled 2000 instances of the dataset. Training size can be increased in further versions. Classes are kept balanced to prevent irregularities. BERT uses attention masking during tokenization, which helps improve model performance. Metrics are stored in `plots/` directory. 
+Now, we use pre-trained BERT language model to tokenize the randomly sampled 2000 instances of the dataset. Training size can be increased in further versions. Classes are kept balanced to prevent irregularities. BERT uses attention masking during tokenization, which helps improve model performance. Metric plots are stored in `results/plots/` directory. 
 
 - Training Details:
   - Weight Decay: 0.01
